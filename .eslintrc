@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "env": {
+      "browser": true,
+      "jest": true
+  },
+  "rules": {
+      "linebreak-style": "off",
+      "react/jsx-filename-extension": [
+          1,
+          {
+              "extensions": [
+                  ".test.js",
+                  ".jsx"
+              ]
+          }
+      ],
+      "react/jsx-one-expression-per-line": [{ "allow": "single-child" }],
+      "react/destructuring-assignment": "off"
+  },
+  "parser": "babel-eslint"
+}

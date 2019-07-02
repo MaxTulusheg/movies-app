@@ -16,7 +16,8 @@
           }
       ],
       "react/jsx-one-expression-per-line": [{ "allow": "single-child" }],
-      "react/destructuring-assignment": "off"
+      "react/destructuring-assignment": "off",
+      "import/no-extraneous-dependencies": "off"
   },
   "parser": "babel-eslint"
 }
